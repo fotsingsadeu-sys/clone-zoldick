@@ -1,0 +1,356 @@
+* {
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 10px;
+}
+.dot{
+    color: #1996c3;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+    margin-left:10px;
+}
+.imagelogo{
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    font-weight: 900;
+    font-size: 18px;
+}
+li {
+    list-style: none;
+}
+li a {
+    text-decoration: none;
+    color: #374151;
+}
+/*header a:hover{
+    color: #1996c3;
+}*/
+.cta a{
+    background-color: #1996c3;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px 15px;
+    font-weight: 700;
+    color:aliceblue;
+    text-decoration: none;
+}
+
+/*section1*/
+.hero {
+    text-align: center;
+    margin-top: 60px;
+}
+.name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+}
+.nom {
+    color: #1996c3;
+}
+.accroche {
+    font-size: 25px;
+    margin-top: 20px;
+    color: #374151;
+}
+.buttons-action {
+    font-size: 20px;
+    margin-top: 50px;
+    gap: 90px;
+}
+.action1{
+    background-color:#1996c3 ;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: azure;
+}
+.action2{
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: #1996c3;
+    border: 2px solid #1996c3;
+    text-decoration: none;
+}
+
+/*section2*/
+.section2{
+    padding-top: 100px;
+}
+.about {
+    background-color:aliceblue;
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+.zld {
+    text-align: center;
+    margin-top: 100px;
+}
+.underline{
+    background-color: #1996c3;
+    margin: 0 auto;
+    height: 4px;
+    width:6rem;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.vision{
+    margin-left: 35px;
+    margin-top: 60px;
+    font-weight:bolder;
+    font-family: ;
+}
+.vis{
+    font-size: 20px;
+    color: #374151;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-family: ;
+}
+.mission {
+    margin-left: 35px;
+    margin-top: 25px;
+    font-weight:bolder;
+    font-family: ;
+}
+.mis {
+    font-size: 20px;
+    color: #374151;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-family: ;
+}
+.number ul{
+    display: flex;
+    justify-content:center;
+    padding-top: 40px;
+    gap: 190px;
+    font-size: 40px;
+    color: #1996c3;
+    font-weight:bolder;
+    font-family: ;
+}
+.classification ul {
+    display: flex;
+    justify-content:center;
+    padding-top: 10px;
+    gap: 350px;
+    font-size: 15px;
+    color: #374151;
+    font-family: ;
+}
+.imageprof {
+   text-align: center;
+   padding-top: 40px; 
+}
+
+/*section3*/
+.serv{
+    text-align: center;
+    padding-top:20px ;
+    font-size: 20px;
+    font-family: ;
+}
+.our_services {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    padding-top: 70px;
+    gap:50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.grid{
+    background-color:  white ;
+    border-radius: 5px;
+
+}
+.grille {
+    padding: 50px 25px;   
+}
+.grid_h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.grid_p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.grille_lien{
+    padding-top:15px;
+    text-decoration:none;
+    color: #374151;
+}
+/*div a:hover {
+    color: #1996c3;
+} */
+/*section4*/
+.section4{ 
+    padding-top: 100px;
+}
+.sect {
+    background-color: aliceblue;
+    padding-top: 5px; 
+    padding-bottom: 50px;
+}
+.zld {
+    text-align: center;
+    margin-top: 100px;
+}
+.underline{
+    background-color: #1996c3;
+    margin: 0 auto;
+    height: 4px;
+    width:6rem;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.serv{
+    text-align: center;
+    padding-top:20px ;
+    font-size: 20px;
+    font-family: ;
+}
+.our_services {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+}
+.grid img {
+    width:370px;
+    height: 150px;
+}
+.grid{
+    background-color:  whitesmoke ;
+}
+.grille {
+    padding: 30px 25px;  
+}
+.grid_h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.grid_p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 15px;
+}
+.grille_lien{
+    padding-top:15px;
+    text-decoration:none;
+    color: #374151;
+}
+/*div a:hover{
+    color: #1996c3;
+}*/
+.projet{
+    text-align:center;
+    padding-top: 55px;
+}
+.projet a{
+    color: #1996c3;
+    border: 2px solid #1996c3;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 40px;
+    font-size: 20px;
+}
+/*section5*/
+.section5 {
+    padding-top: 60px;
+    color: whitesmoke;
+}
+.action{
+    text-align: center;
+    padding-top: 70px;
+    background-color: #1996c3;
+    padding-bottom: 40px;
+}
+.act {
+    font-size: 50px;
+        
+}
+.ion {
+    padding-top: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.dmd {
+    padding-top: 30px;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+.dmd1 {
+    text-decoration: none;
+    color: #1996c3;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 20px;  
+    
+}
+.dem{
+    padding-top: 35px;
+     font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.dmd2{
+    text-decoration: none;
+    color: white;
+    padding-top: 5px;
+    border-radius: 30px;
+    background-color:#1996c3;
+    padding: 10px 20px;
+    border: 2px solid white;
+}
+
+/*section6*/
+.zld {
+    text-align: center;
+    margin-top: 100px;
+}
+.underline{
+    background-color: #1996c3;
+    margin: 0 auto;
+    height: 4px;
+    width:6rem;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.serv{
+    text-align: center;
+    padding-top:20px ;
+    font-size: 20px;
+    font-family: ;
+}
+.coordonee{
+    padding-left: 30px;
+}
+.adresse{
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.Email {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.Telephone{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+
+
+
